@@ -18,7 +18,9 @@ To run this module independently one need to give the value of constant data_pat
 
 data_path should have the value of complete path of data file.
 
-complete dataset can be downloaded from below link: review_data = http://snap.stanford.edu/data/amazon/productGraph/user_dedup.json.gz meta_data = http://snap.stanford.edu/data/amazon/productGraph/metadata.json.gz
+complete dataset can be downloaded from below link: review_data = http://snap.stanford.edu/data/amazon/productGraph/user_dedup.json.gz 
+
+meta_data = http://snap.stanford.edu/data/amazon/productGraph/metadata.json.gz
 
 the clustering.py file need meta_data dataset. the collaborative_filtering.py file need review_data dataset. note: the meta_data data set is not clean there are erregular singel quotes('), double quotes("), simicolon(;) so we have preprocessed these files to some extent which can be found in the data folder here: https://drive.google.com/drive/folders/0ByF97F7OFu5IWGdhTG05WWJoMzQ?usp=sharing https://drive.google.com/drive/folders/0ByF97F7OFu5IUkhjZE5lVkxhOTA?usp=sharing give the path of metadata.json.gz file found in data folder in clustering.py file give the path of reviews_200k.json.gz file found in data folder in collaborative_filtering.py
 
